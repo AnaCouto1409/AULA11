@@ -1,0 +1,28 @@
+
+#caixa{
+    background-color: black;
+    color: rgb(235, 16, 16);
+    padding: 200px 50px 50px 500px;
+    border: 30px orange solid;
+    border-radius: 3px solid #7e459b;
+    height: 300px;
+    margin: 20px;
+}
+.h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.banner{
+    height: 500px;
+    width: 600px;
+}
+.bannerbox{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 3rem;
+    background-color: #7E459B;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
