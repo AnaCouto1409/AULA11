@@ -34,3 +34,16 @@ console. log(array);
   }
   imprimirInverso(array);
   inverter(newarray);
+
+  /**Somar elementos no array */
+
+  function somar(array){
+      array.reduce(function(soma, i){
+return soma+ i;
+      })
+  }
+  function somar(array){
+    for(let index = 0; index < array.lenght; index++){
+soma+= parseInt(array[i]);
+    }
+}
