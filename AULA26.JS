@@ -17,7 +17,7 @@ function compararValores(asia,europa) {
         pontosBob += 1;
       } 
     }
-    return(pontosAlicia > pontosBob)?'Alicia' :'Bob';
+    return(pontosAlicia > pontosBob)?'Alicia com ${pontosAlicia} pontos' :'Bob com ${pontosBob}';
   }
   console.log('OGanhador é: ${encontrarGanhador(alicia, bob)}');
 
