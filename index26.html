@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula26.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Dados Pessoais</h1>
+    <label for="nome">Nome:</label>
+    <select name="nome" id="nome1">
+        <optgroup label="nome">
+        <input type="text">
+</optgroup>
+</select>
+    <div>
+        <form action="/contact" method="POST">
+        <label for="comentario">Deixe seu comentario</label>
+        <textarea name="comentario" id="comentario" maxlength="2000">Conteúdo</textarea>
+        </form>
+    </div>
+    <div>
+        <label>E-mail:</label>
+        <input type="e-mail" name="email">
+    </div>
+    <div>
+        <label for="carro">Escolha seu modelo</label>
+        <select name="carro" id="carro">
+            <optgroup label="Ferrari">
+            <option value="Ferrari">Ferrari</option>
+            <option value="458spider">458 spider</option>
+            <option value="f12 Berlinetta">F12 Berlinetta</option>
+            <option value="Porsche">Porsche</option>
+    </optgroup>
+        </select>
+    </div>
+    <form action="/usuario/cadastro" method="POST" id="usrcad">Nome</form>
+    <div id="buttons.btn">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
