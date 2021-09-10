@@ -1,0 +1,60 @@
+*{
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+}
+#hash{
+    display: inline;
+    color: #7e459b;
+    display: inline-flexbox;
+    position: relative;
+    text-align: center;
+}
+#hash li{
+    display: inline;
+    color: #7e459b;
+    display: inline-flexbox;
+}
+#hash li a{
+    display: inline;
+    color: #7e459b;
+    display: inline-flexbox;
+}
+body{
+    background-image: url(https://www.bing.com/th?id=ODL.2f1ec91b0742131edde57b24f670ca63&w=197&h=112&c=7&rs=1&qlt=80&o=6&pid=RichNav);
+    width: 900px;
+    height: 900px;
+    color:black;
+    font-size: 2rem;
+}
+.box1{
+    padding: auto;
+    margin: 0%;
+}
+.box2{
+    padding: auto;
+    margin: 0%;
+}
+.box3{
+    padding: auto;
+    margin: 0%;
+}
+#btn{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 3rem;
+    background-color: #7E459B;
+    padding: 8px 20px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Fjalla One', sans-serif
+}
+#roxo{
+    color: #7e459b;
+}
+
+
