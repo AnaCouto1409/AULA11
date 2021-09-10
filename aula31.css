@@ -1,0 +1,50 @@
+main{
+    text-align: center;
+}
+body{
+    font=family:arial;
+    color:white;
+    background-color:#7e549b;
+}
+main img{
+    width: 100px;
+}
+fieldset + fieldset{
+    margin-top:15px;
+}
+textarea{
+    resize:none;
+}
+select{
+    margin:0 ato 15x;
+}
+label,  select{
+    display:block;
+}
+input, textarea{
+    margin-bottom:15px;
+}
+inline-block{
+    display:inline;
+    text-align:center;
+}
+.metodopagamento label, #opcionais{
+    display:inline-block;
+    margin-right:10px;
+}
+#opcionais{
+    display:inline-block;
+    margin-right:10px;
+}
+button{
+    margin: 3rem 0;
+}
+.buttom-cv {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #7E459B;
+    padding: 8px 20px;
+    border-radius: 20px;
